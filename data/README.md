@@ -4,12 +4,12 @@ The raw data was collected from the test systems at Westermo Network Technologie
 
 ```
 
-└── data 			# Data directory
-      ├── raw       # Raw data obtained from the test systems
+└── data                  # Data directory
+      ├── raw             # Raw data obtained from the test systems
       │   ├── system-1.csv
 	  ...
       │   ├── system-19.csv
-      ├── labelled 	# Labelled data
+      ├── labelled        # Labelled data
       |   | # Data with anomalies:
       │   ├── system-6_sys-thermal_anomalies_m-15m.csv      # A period of unusually high temperature fluctuations
       │   ├── system-14_cpu-user_anomalies.csv              # Several periods of CPU usage peaking at 100%
